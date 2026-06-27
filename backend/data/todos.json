@@ -1,0 +1,18 @@
+[
+  {
+    "_id": "local_1782567775726_ci4mze",
+    "title": "bike repair",
+    "description": "i want to repair bike",
+    "completed": false,
+    "createdAt": "2026-06-27T13:42:55.726Z",
+    "updatedAt": "2026-06-27T13:42:55.726Z"
+  },
+  {
+    "_id": "local_1782567640048_srs1z4",
+    "title": "Test todo from API",
+    "description": "Smoke test",
+    "completed": false,
+    "createdAt": "2026-06-27T13:40:40.048Z",
+    "updatedAt": "2026-06-27T13:40:40.048Z"
+  }
+]

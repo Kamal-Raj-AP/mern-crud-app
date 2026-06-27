@@ -1,0 +1,22 @@
+.todo-list-container {
+  width: 100%;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 44px 20px;
+  color: #6b7280;
+  font-size: 1.05rem;
+  background: linear-gradient(180deg, rgba(255,255,255,0.72), rgba(255,255,255,0.94));
+  border: 1px dashed #c8d2e8;
+  border-radius: 20px;
+}

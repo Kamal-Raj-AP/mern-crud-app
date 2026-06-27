@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  font-family: Inter, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background:
+    radial-gradient(circle at top left, rgba(87, 125, 255, 0.28), transparent 32%),
+    radial-gradient(circle at bottom right, rgba(24, 62, 168, 0.18), transparent 30%),
+    linear-gradient(135deg, #d9e6ff 0%, #edf4ff 46%, #f7f9ff 100%);
+  min-height: 100vh;
+  padding: 20px;
+  color: #0e1a41;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  min-height: 100vh;
+}

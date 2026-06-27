@@ -1,0 +1,59 @@
+.todo-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  margin-bottom: 24px;
+  padding: 22px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.92), rgba(245,248,255,0.92));
+  border-radius: 22px;
+  border: 1px solid #dbe4f5;
+  box-shadow: 0 14px 34px rgba(20, 29, 60, 0.08);
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-field {
+  padding: 14px 16px;
+  border: 1px solid #ced9ef;
+  border-radius: 14px;
+  font-size: 1rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+  background: white;
+}
+
+.input-field:focus {
+  outline: none;
+  border-color: #5b7cff;
+  box-shadow: 0 0 0 4px rgba(91, 124, 255, 0.12);
+}
+
+.submit-btn {
+  padding: 14px 16px;
+  background: linear-gradient(135deg, #183ea8 0%, #5b7cff 100%);
+  color: white;
+  border: none;
+  border-radius: 14px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s, opacity 0.2s;
+}
+
+.submit-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 14px 24px rgba(24, 62, 168, 0.24);
+}
+
+.submit-btn:active {
+  transform: translateY(0);
+}
+
+.submit-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.7;
+  transform: none;
+}
